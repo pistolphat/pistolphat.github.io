@@ -15,6 +15,7 @@ footer {
   color: white;
   text-align: left;
   line-height: 30px;
+  border-style: inset;
 }
 body {
   font-family: "Fredericka the Great", cursive;
