@@ -7,6 +7,13 @@ header{
   line-height: 50px;
   padding-bottom: 100px;
 }
+body {
+  font-family: "Fredericka the Great", cursive;
+  background: url("https://images6.alphacoders.com/430/thumb-1920-430889.jpg");
+  background-size: cover;
+  background-position: center;
+  color: white;
+}
 
 footer {
   font-size: 30px;
@@ -16,13 +23,7 @@ footer {
   text-align: left;
   line-height: 30px;
 }
-body {
-  font-family: "Fredericka the Great", cursive;
-  background: url("https://images6.alphacoders.com/430/thumb-1920-430889.jpg");
-  background-size: cover;
-  background-position: center;
-  color: white;
-}
+
 h1 {
   font-size: 125px;
   text-align: left;
