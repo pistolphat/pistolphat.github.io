@@ -1,7 +1,7 @@
 body {
   font-family: 'Work Sans', sans-serif;
   background: url("https://images.unsplash.com/photo-1495470329446-6abd892bb996?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80") no-repeat fixed center;
-  background-size: cover;
+  /* background-size: cover; */
 }
 
 .topnavbar {
@@ -11,7 +11,7 @@ body {
 /* Fixed/sticky icon bar (vertically aligned 50% from the top of the screen) */
 .icon-bar {
   position: fixed;
-  top: 50%;
+  top: 30%;
   -webkit-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
@@ -42,26 +42,12 @@ body {
   color: white;
 }
 
-.brandstatement{
-  /* margin: 200px; */
-  font-style: italic;
-  text-align: center;
-}
-
-.description {
-  font-size: 35px;
+.techused {
+  color: black;
   font-weight: bold;
 }
 
-.brandstatement {
-  font-size: 20px;
-}
-
-.phatlogo:link{
-  text-decoration: none;
-}
-
-.phatlogo {
-  font-size: 25px;
-  color: white;
+.project-title {
+  font-size: 30px;
+  font-weight: bold;
 }
