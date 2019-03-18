@@ -1,9 +1,7 @@
 body {
-  font-family: "Fredericka the Great", cursive;
+  font-family: 'Work Sans', sans-serif;
   background: url("https://images.unsplash.com/photo-1495470329446-6abd892bb996?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80") no-repeat fixed center;
   background-size: cover;
-  /* background-position: center; */
-  /* color: white; */
 }
 
 .topnavbar {
@@ -45,11 +43,25 @@ body {
 }
 
 .brandstatement{
-  margin: 300px;
+  /* margin: 200px; */
+  font-style: italic;
   text-align: center;
 }
 
 .description {
   font-size: 35px;
   font-weight: bold;
+}
+
+.brandstatement {
+  font-size: 20px;
+}
+
+.phatlogo:link{
+  text-decoration: none;
+}
+
+.phatlogo {
+  font-size: 25px;
+  color: white;
 }
