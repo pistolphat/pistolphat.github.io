@@ -14,7 +14,7 @@
 </head>
 
 <body>
-  <nav class="topnavbar navbar navbar-expand-lg navbar-dark bg-dark fixed-top sticky-top m-2"> 
+  <nav class="topnavbar navbar navbar-expand-lg navbar-dark bg-dark fixed-top sticky-top m-1"> 
     <a class="navbar-brand text-decoration-none" href="/">Phat Doan</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span></button>
     <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
@@ -25,65 +25,93 @@
             <a class="dropdown-item" href="https://sharecipes.herokuapp.com">Sharecipes</a>
             <a class="dropdown-item" href="http://classbank.surge.sh">Classbank</a>
           </div>
-          <li class="nav-item"><a class="nav-link" href="#">Resume</a></li>
+          <li class="nav-item"><a class="nav-link" href="#resume">Resume</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contacts">Contacts</a></li>
       </ul>
     </div>
   </nav>
 
-  <div class="jumbotron jumbotron-fluid bg-transparent">
-    <div class="container text-center">
-      <p class="lead">Self-discipline, resourceful, and simplistic<br>
-        My commitment is to connect people and technology 
-        <br>{ seamlessly together }.</p>
-        <h2 class="display-5">Software Developer | Washington, DC</h2>
-    </div>
-  </div>
-
-  <div class="container text-center p-2 project-title"> Projects </div>
-
-  <div class="card-deck m-2">
-    <div class="card border-dark">
-      <img src="img/Hidden - Answers.png" class="card-img-top" alt="...">
-      <div class="card-body">
-        <h5 class="card-title"><a href="https://pistolphat.github.io/Project-1-Trivia-of-Exotic-Fruits/">Trivia of Exotic Fruits</a></h5>
-        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore, officia?</p>
-      </div>
-      <div class="card-footer">
-        <small class="text-success"><span class="techused">Built with:</span> HTML | CSS | JavaScript</small>
-      </div>
-    </div>
-    <div class="card border-dark">
-      <img src="img/sharecipes.png" class="card-img-top" alt="...">
-      <div class="card-body">
-        <h5 class="card-title"><a href="https://sharecipes.herokuapp.com">Sharecipes</a></h5>
-        <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-      </div>
-      <div class="card-footer">
-        <small class="text-info"><span class="techused">Built with:</span> Node.js | Express | MongoDB | Handlebars </small>
-      </div>
-    </div>
-    <div class="card border-dark">
-      <img src="img/Classbank SS.png" class="card-img-top" alt="...">
-      <div class="card-body">
-        <h5 class="card-title"><a href="http://classbank.surge.sh">Classbank</a></h5>
-        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-      </div>
-      <div class="card-footer">
-        <small class="text-warning"><span class="techused">Built with:</span> Node.js | Express | React | MongoDB</small>
+  <div class="container-fluid">
+    <div class="jumbotron jumbotron-fluid bg-dark">
+      <div class="text-right mr-5 mt-5">
+        <p class="lead font-weight-bold">
+          Self-discipline, resourceful, and simplistic<br>
+          My commitment is to connect <span class="text-warning">people</span> and <span class="text-warning">technology</span><br>
+          <span class='text-success'>{ seamlessly together }</span>
+        </p>
+        <h2 class="display-5 text-warning">Software Developer | Washington, DC</h2>
       </div>
     </div>
   </div>
+
+  <section class='container-fluid projects'> 
+    <div class="text-center p-2 project-title"> Projects </div>
+    <div class="card-deck m-2">
+      <div class="card border-dark bg-light">
+        <img src="img/Hidden - Answers.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title"><a href="https://pistolphat.github.io/Project-1-Trivia-of-Exotic-Fruits/">Trivia of Exotic Fruits</a></h5>
+          <p class="card-text">Lorem ipsum dolor sit amet.</p>
+        </div>
+        <div class="card-footer">
+          <small class="text-success"><span class="techused">Built with:</span> HTML | CSS | JavaScript</small>
+        </div>
+      </div>
+      <div class="card border-dark">
+        <img src="img/sharecipes.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title"><a href="https://sharecipes.herokuapp.com">Sharecipes</a></h5>
+          <p class="card-text">Lorem ipsum dolor sit amet.</p>
+        </div>
+        <div class="card-footer">
+          <small class="text-success"><span class="techused">Built with:</span> Node| Express| MongoDB| Handlebars </small>
+        </div>
+      </div>
+      <div class="card border-dark">
+        <img src="img/Classbank SS.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title"><a href="http://classbank.surge.sh">Classbank</a></h5>
+          <p class="card-text">Lorem ipsum dolor sit amet.</p>
+        </div>
+        <div class="card-footer">
+          <small class="text-success"><span class="techused">Built with:</span> Node| Express| React| MongoDB| JWT Authentication</small>
+        </div>
+      </div>
+    </div>
+</section>
+
+<section class="resume container bg-success">
+  <div>
+    Resume
+  </div>
+</section>
+
+<section class="contacts container-fluid bg-warning">
+    <div>
+      Contacts
+    </div>
+  </section>
+
+<!-- <div class="container-fluid">
+  <div class="text-center">
+    <img src="img/sharecipes.png"> 
+  </div>
+</div> -->
 
   <!-- The social media icon bar -->
   <div class="icon-bar">
     <a href="https://github.com/pistolphat" class="github"><i class="fa fa-github"></i></a> 
     <a href="https://www.linkedin.com/in/pistolphat/" class="linkedin"><i class="fa fa-linkedin"></i></a>
+    <a href="#" class="fa fa-skype"></a>
   </div>
+
+<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
 
 <!--!! -->
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<script src='script.js'></script>
 </body>
 
 </html>

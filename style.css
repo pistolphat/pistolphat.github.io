@@ -1,6 +1,6 @@
 body {
   font-family: 'Work Sans', sans-serif;
-  background: url("https://images.unsplash.com/photo-1495470329446-6abd892bb996?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80") no-repeat fixed center;
+  /* background: url("https://images.unsplash.com/photo-1495470329446-6abd892bb996?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80") no-repeat fixed center; */
   /* background-size: cover; */
 }
 
@@ -10,21 +10,37 @@ body {
 
 /* Fixed/sticky icon bar (vertically aligned 50% from the top of the screen) */
 .icon-bar {
-  position: fixed;
+  /* position: fixed;
   top: 30%;
   -webkit-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
-  transform: translateY(-50%);
+  transform: translateY(-50%); */
+  position: fixed;
+  top: 25%;
+  right: 0;
+  list-style: none;
+  padding-left: 0;
+  z-index: 10;
+  margin: 0;
+  -webkit-transition: right 0.25s ease-in-out;
+  transition: right 0.25s ease-in-out;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
 }
 
 /* Style the icon bar links */
 .icon-bar a {
   display: block;
   text-align: center;
-  padding: 16px;
+  padding: 15px;
   transition: all 0.3s ease;
   color: white;
-  font-size: 20px;
+  font-size: 15px;
 }
 
 /* Style the social media icons with color, if you want */
@@ -42,6 +58,11 @@ body {
   color: white;
 }
 
+.fa-skype {
+  background: #00aff0;
+  color: white;
+}
+
 .techused {
   color: black;
   font-weight: bold;
@@ -50,4 +71,33 @@ body {
 .project-title {
   font-size: 30px;
   font-weight: bold;
+}
+
+#myBtn {
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 10px; /* Place the button at the bottom of the page */
+  right: 0px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: black; /* Set a background color */
+  color: white; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 15px; /* Some padding */
+  /* border-radius: 10px; Rounded corners */
+  font-size: 15px; /* Increase font size */
+}
+
+#myBtn:hover {
+  background-color: #555; /* Add a dark-grey background on hover */
+}
+
+.jumbotron {
+  background-image: url('img/banner.jpg');
+  /* background-size: auto 100%; */
+  background-size: cover;
+  background-repeat: no-repeat;
+    height: 310px;
+
 }
