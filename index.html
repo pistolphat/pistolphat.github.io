@@ -14,7 +14,7 @@
 </head>
 
 <body>
-  <nav class="navbar navbar-expand-lg navbar-dark bg-info m-1"> 
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary m-1"> 
     <a class="navbar-brand text-decoration-none" href="#home">Phat Doan</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span></button>
     <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
@@ -27,16 +27,16 @@
             <a class="dropdown-item" href="https://sharecipes.herokuapp.com">Sharecipes</a>
             <a class="dropdown-item" href="http://classbank.surge.sh">Classbank</a>
           </div> -->
+          <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
           <li class="nav-item"><a class="nav-link" href="/resume.pdf" target='_blank'>Resume</a></li>
           <!-- <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li> -->
-          <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
       </ul>
     </div>
   </nav>
 
-  <section id='home' class="position-sticky">
+  <section id='home'>
     <div class="container-fluid">
-      <div class="jumbotron jumbotron-fluid bg-dark">
+      <div class="jumbotron jumbotron-fluid">
         <div class="brandingstatement text-right mr-5 text-white">
           <p class="lead">
             Self-discipline, resourceful, and simplistic<br>
@@ -53,13 +53,13 @@
   </section> 
 
   <section id='projects'> 
-    <div class="text-center p-2 project-title bg-info"> Projects </div>
-    <div class="card-deck m-2">
+    <div class="text-center p-2 project-title bg-primary text-white"> Projects </div>
+    <div class="card-deck m-4">
       <div class="card border-dark bg-light">
         <img src="img/Hidden - Answers.png" class="card-img-top" alt="...">
         <div class="card-body">
           <h5 class="card-title"><a href="https://pistolphat.github.io/Project-1-Trivia-of-Exotic-Fruits/" target='_blank'>Trivia of Exotic Fruits</a></h5>
-          <p class="card-text">Simple and fun game using drag and drop.</p>
+          <p class="card-text">Simple and fun game using drag and drop. Users match each facts to the corresponding picture.</p>
         </div>
         <div class="card-footer">
           <small class="text-primary"><span class="techused">Built with:</span> HTML | CSS | JavaScript <a href='https://github.com/pistolphat/Project-1-Trivia-of-Exotic-Fruits' class="githubbie text-success" target='_blank'><strong>[ Github ]</strong></a></small>
@@ -69,7 +69,7 @@
         <img src="img/sharecipes.png" class="card-img-top" alt="...">
         <div class="card-body">
           <h5 class="card-title"><a href="https://sharecipes.herokuapp.com" target='_blank'>Sharecipes</a></h5>
-          <p class="card-text">A collection of favorite recipes that User can create and share.</p>
+          <p class="card-text">A collection of favorite recipes that Users can create and share with other people.</p>
         </div>
         <div class="card-footer">
           <small class="text-primary"><span class="techused">Built with:</span> Node| Express| MongoDB| Handlebars <br><a href='https://github.com/pistolphat/Sharecipes' class="githubbie text-success" target='_blank'><strong>[ Github ]</strong></a></small>
