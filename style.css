@@ -1,5 +1,5 @@
 body {
-  font-family: 'Work Sans', sans-serif;
+  font-family: "Raleway", sans-serif;
   /* overflow: hidden; */
   /* background: url("https://images.unsplash.com/photo-1495470329446-6abd892bb996?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80") no-repeat fixed center; */
   /* background-size: cover; */
@@ -72,7 +72,7 @@ body {
 }
 
 .project-title {
-  font-family: 'Courier New', Courier, monospace;
+  font-family: "Courier New", Courier, monospace;
   font-size: 50px;
   font-weight: bold;
 }
@@ -85,28 +85,27 @@ body {
   z-index: 99; /* Make sure it does not overlap */
   border: none; /* Remove borders */
   outline: none; /* Remove outline */
-  background-color: black; /* Set a background color */
+  background-color: blue; /* Set a background color */
   color: white; /* Text color */
   cursor: pointer; /* Add a mouse pointer on hover */
-  padding: 15px; /* Some padding */
-  /* border-radius: 10px; Rounded corners */
+  padding: 10px; /* Some padding */
+  border-radius: 5px;
   font-size: 10px; /* Increase font size */
 }
 
 #myBtn:hover {
-  background-color: #555; /* Add a dark-grey background on hover */
+  background-color: gold; /* Add a dark-grey background on hover */
 }
 
 .jumbotron {
-  background-image: url('img/banner.jpg');
+  background-image: url("img/banner.jpg");
   background-size: 100% 100%;
   background-repeat: no-repeat;
-  height: auto;
 }
 
-.brandingstatement {
-  margin-top: 125px;
-}
+/* .brandingstatement {
+  margin-top: 200px;
+} */
 
 section {
   display: flex;
@@ -116,5 +115,57 @@ section {
   text-align: center;
   width: 100%;
   height: 100vh;
-  /* scroll-snap-align: center; */
+  scroll-behavior: smooth;
+}
+
+.card-text {
+  font-family: "Raleway", sans-serif;
+  font-size: 12px;
+}
+
+.project-image {
+  height: 180px;
+  width: 100%;
+}
+
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  letter-spacing: 3px;
+}
+
+.PD {
+  font-family: "Raleway", sans-serif;
+  font-size: 40px;
+}
+
+.lead,
+.title {
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+}
+
+footer {
+  margin-top: 50px;
+  height: 40px;
+  background-color: #000000;
+  color: white;
+  padding: 8px 0px;
+}
+
+footer a {
+  font-family: "Raleway", sans-serif;
+  color: gold;
+}
+
+.dev-icons button {
+  border: 0;
+  background: transparent;
+}
+
+.dev-icons p {
+  font-family: "Raleway", sans-serif;
+  font-size: 12px;
 }
