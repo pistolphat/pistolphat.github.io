@@ -1,5 +1,5 @@
 .nav-item {
-  font-size: 25px;
+  font-size: 20px;
 }
 
 /* Fixed/sticky icon bar (vertically aligned 50% from the top of the screen) */
@@ -173,5 +173,5 @@ footer a:hover {
 
 .dev-icons p {
   font-family: "Raleway", sans-serif;
-  font-size: 16px;
+  font-size: 13px;
 }
