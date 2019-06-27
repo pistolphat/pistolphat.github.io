@@ -24,17 +24,9 @@
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span></button>
     <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
       <ul class="navbar-nav">
-          <!-- <button type="button" class="btn btn-danger">Action</button> -->
-          <!-- <button type="button" class="btn btn-danger dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> -->
-          <!-- <li class="nav-item dropdown dropleft "><a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Projects</a>
-          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-            <a class="dropdown-item" href="https://pistolphat.github.io/Project-1-Trivia-of-Exotic-Fruits/">Trivia of Exotic Fruits</a>
-            <a class="dropdown-item" href="https://sharecipes.herokuapp.com">Sharecipes</a>
-            <a class="dropdown-item" href="http://classbank.surge.sh">Classbank</a> -->
-          <!-- </div> -->
           <li class="nav-item"><a class="nav-link text-white" href="#projects">Projects</a></li>
           <li class="nav-item"><a class="nav-link text-white" href="#home">Skills</a></li>
-          <li class="nav-item"><a class="nav-link text-white" href="/resume.pdf" target='_blank'>Resume</a></li>
+          <li class="nav-item"><a class="nav-link text-primary" href="/resume.pdf" target='_blank'>Resume</a></li>
           <li class="nav-item"><a class="nav-link text-white" href="#contact">Contact</a></li>
 
       </ul>
@@ -47,7 +39,7 @@
       <div class="jumbotron jumbotron-fluid">
         <div class="text-right mr-5 text-white container" style='margin-top: 125px'}>
           <p class="leads container">
-            Self-disciplined, highly resourceful, and simplistic<br>
+            Self-disciplined, highly resourceful and adaptable<br>
             My commitment is to connect <span class="text-warning">people</span> and <span class="text-warning">technology</span><br>
             <span class='text-success'>{ seamlessly together }</span>
           </p>
@@ -148,16 +140,29 @@
   <section id='projects'> 
     <div class="text-center project-title text-white" style="background-color: rgba(0,0,0,1)"> Projects </div>
     <div class="card-deck m-4">
+
       <div class="card border-dark">
         <img class='project-image' src="img/ClassbankSS.png" class="card-img-top" alt="classbank">
         <div class="card-body">
           <h4 class="card-title"><a href="http://classbank.surge.sh" target='_blank'>Classbank</a></h4>
-          <p class="card-text">A searchable database that contains General Assembly's lessons, labs, homeworks.</p>
+          <p class="card-text">A searchable database that contains General Assembly's Web Development lessons, labs, projects, and homework.</p>
         </div>
         <div class="card-footer">
           <small class="text-primary"><span class="techused">Built with:</span> Node| Express| React | MongoDB <a href='https://github.com/pistolphat/Classbank' class="githubbie text-success" target='_blank'><strong>[ Github ]</strong></a></small>
         </div>
       </div>
+
+      <div class="card border-dark">
+        <img class='project-image' src="img/Exercise.png" class="card-img-top" alt="Lyrically">
+        <div class="card-body">
+          <h4 class="card-title"><a href="http://just-exercise.surge.sh/" target='_blank'>Just Exercise</a></h4>
+          <p class="card-text">A simple and single page application that enable Users to organize and plan activities. Start by adding yourself and describe your activity and pick the date.</p>
+        </div>
+        <div class="card-footer">
+          <small class="text-primary"><span class="techused">Built with:</span> Node| Express| MongoDB | React <a href='https://github.com/pistolphat/MERN_ExerciseTracker' class="githubbie text-success" target='_blank'><strong> [ Github ]</strong></a></small>
+        </div>
+      </div>
+
       <div class="card border-dark">
         <img class='project-image' src="img/SharecipesSS.png" class="card-img-top" alt="sharecipes">
         <div class="card-body">
@@ -168,11 +173,12 @@
           <small class="text-primary"><span class="techused">Built with:</span> Node| Express| MongoDB Handlebars <a href='https://github.com/pistolphat/Sharecipes' class="githubbie text-success" target='_blank'><strong>[ Github ]</strong></a></small>
         </div>
       </div>
+
       <div class="card border-dark">
         <img class='project-image' src="img/fruitSS.png" class="card-img-top" alt="FruitsSS">
         <div class="card-body">
           <h4 class="card-title"><a href="https://pistolphat.github.io/Project-1-Trivia-of-Exotic-Fruits/" target='_blank'>Matching Trivia</a></h4>
-          <p class="card-text">Simple and fun trivia using drag and drop functionality. Users match each fact to the corresponding picture.</p>
+          <p class="card-text">Simple and fun trivia game with drag and drop ability.</p>
         </div>
         <div class="card-footer">
           <small class="text-primary"><span class="techused">Built with:</span> HTML | CSS | JavaScript <a href='https://github.com/pistolphat/Project-1-Trivia-of-Exotic-Fruits' class="githubbie text-success" target='_blank'><strong>[Github]</strong></a></small>
@@ -182,7 +188,7 @@
         <img class='project-image' src="img/LyricallySS.png" class="card-img-top" alt="Lyrically">
         <div class="card-body">
           <h4 class="card-title"><a href="http://lyrically.surge.sh/" target='_blank'>Lyrically</a></h4>
-          <p class="card-text">Lyrically is a group project. An application that enable Users to create song lyrics and artists.</p>
+          <p class="card-text">Lyrically is a group project that would enable Users to select a song from the group developed API and creatively change the lyrics.</p>
         </div>
         <div class="card-footer">
           <small class="text-primary"><span class="techused">Built with:</span> Node| Express| MongoDB Handlebars<a href='https://github.com/pistolphat/Sharecipes' class="githubbie text-success" target='_blank'><strong> [ Github ]</strong></a></small>
@@ -192,7 +198,7 @@
 
   <footer id="contact" class="container-fluid">
     <div class="container-fluid">
-      <large><a href="mailto:phatdoan@yahoo.com">phatdoan@yahoo.com</a> | <a target='_blank' href="https://profiles.generalassemb.ly/profiles/phat-doan"><img src="img/GA-logo.png" alt=""></a></large>
+      <a href="mailto:phatdoan@yahoo.com">phatdoan@yahoo.com</a> | <a target='_blank' href="https://profiles.generalassemb.ly/profiles/phat-doan"><img src="img/GA-logo.png" alt=""></a>
     </div>
   </footer>
 </section>
